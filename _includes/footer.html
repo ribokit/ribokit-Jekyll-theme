@@ -1,7 +1,13 @@
   <footer>
-    <span class="small">Built in Jekyll for GitHub Pages by <a href="http://twitter.com/#!/michigangraham">@mattgraham</a></span>
+    <p style="margin:0;">
+        <small>Project maintained by</small>
+        <br/>
+        <a href="https://github.com/DasLab"><b>Das Lab</b></a>&nbsp;
+        {% if page.author %}
+        <br/>
+        <small>Page created by</small>
+        <br/>
+        <span style="color: #39c;"><i>{{ page.author }}</i></span>&nbsp;
+        {% endif %}
+    </p>
   </footer>
-  </div>
-  <!--[if !IE]><script>fixScale(document);</script><!--<![endif]-->
-  </body>
-</html>
