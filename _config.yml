@@ -1,10 +1,29 @@
 # Site settings
 title: RiboKit
-email: rhiju@stanford.edu
+email: t47@stanford.edu
 description: ""
 baseurl: ""
 url: "http://ribokit.github.io"
 github_username:  ribokit
+
+# Default variables
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+      level: 1
+      author: "Siqi Tian"
+  -
+    scope:
+      path: "example"
+    values:
+      title: "Example Project"
+      description: "Some Description with <u>E</u>xamples"
+      repo: "t47io/ribokit-Jekyll-theme"
+      root: "/example/"
+
 
 # Build settings
 markdown: kramdown
