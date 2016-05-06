@@ -4,7 +4,7 @@
 
 Inspired by the `2.0` version used by _GitHub Pages_, this theme is forked and modified from [**mattgraham/leapday**](https://github.com/mattgraham/leapday), used by https://ribokit.github.io and https://t47io.github.io.
 
-### Installation
+## Installation
 
 Please follow the following steps:
 
@@ -17,7 +17,7 @@ Please follow the following steps:
 jekyll serve -w
 ```
 
-### Documentation
+## Documentation
 
 Varibles available in the [**Front Matter**](https://jekyllrb.com/docs/frontmatter/) block are described in detail below (or see at https://ribokit.github.io/std/#jekyll):
 
@@ -26,14 +26,14 @@ In your **.md** file, use a header like this:
 ```go
 ---
 layout: docs
-permalink: /hitrace/tutorial/bonus_2d/
-root: /hitrace/
+permalink: /HiTRACE/tutorial/bonus_2d/
+root: /HiTRACE/
 prev: ../../biers/varna/
 next: bonus_3d/
 
 title: HiTRACE
 description: "<u>Hi</u>gh-<u>T</u>hroughput <u>R</u>obust <u>A</u>nalysis for <u>C</u>apillary <u>E</u>lectrophoresis"
-repo: hitrace/hitrace
+repo: hitrace/HiTRACE
 author: Siqi Tian
 ---
 ```
@@ -62,7 +62,7 @@ author: Siqi Tian
 | `prev` | The previous page, used for tutorial series. This will be used by the _left arrow_ button. The final (relative) URL is prepended with `../` (so you don't need to type it). |
 | `next` | The next page, used for tutorial series. This will be used by the _right arrow_ button. The final (relative) URL is prepended with `../` (so you don't need to type it). |
 
-### Credits
+## Credits
 
 Created by [**t47**](http://t47.io/), *April 2016*.
 
