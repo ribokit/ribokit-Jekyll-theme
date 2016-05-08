@@ -16,6 +16,14 @@ defaults:
       level: 1
       title:
       author: "Siqi Tian"
+      ga_tracker: UA-12345678-9
+  -
+    scope:
+      path: "redirect"
+    values:
+      layout: "redirect"
+      sitemap: false
+      title: "Redirect"
   -
     scope:
       path: "example"
