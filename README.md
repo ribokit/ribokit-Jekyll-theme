@@ -33,8 +33,8 @@ In your **.md** file, use a header like this:
 layout: docs
 permalink: /HiTRACE/tutorial/bonus_2d/
 root: /HiTRACE/
-prev: ../../Biers/varna/
-next: bonus_3d/
+prev: /Biers/varna/
+next: ../bonus_3d/
 
 title: HiTRACE
 description: "<u>Hi</u>gh-<u>T</u>hroughput <u>R</u>obust <u>A</u>nalysis for <u>C</u>apillary <u>E</u>lectrophoresis"
@@ -68,8 +68,8 @@ author: Siqi Tian
 | Key | Value |
 | --- | --- |
 | `root` | The root parent of the page. This will be used by the _up arrow_ button. |
-| `prev` | The previous page, used for tutorial series. This will be used by the _left arrow_ button. The final (relative) URL is prepended with `../` (so you don't need to type it). |
-| `next` | The next page, used for tutorial series. This will be used by the _right arrow_ button. The final (relative) URL is prepended with `../` (so you don't need to type it). |
+| `prev` | The previous page, used for tutorial series. This will be used by the _left arrow_ button. Your relative or absolute path/URL is used as is. |
+| `next` | The next page, used for tutorial series. This will be used by the _right arrow_ button. Your relative or absolute path/URL is used as is. |
 | `redirect_to` | New address to redirect a page. Only works when `layout` is `redirect`. Either relative or absolute path works. |
 
 Example of link redirection:
@@ -77,7 +77,7 @@ Example of link redirection:
 ```go
 ---
 permalink: /biers/
-redirect_to:  https://daslab.github.io/Biers/
+redirect_to:  https://ribokit.github.io/Biers/
 ---
 ```
 
@@ -120,6 +120,6 @@ Now for your individual **.md** files, you don't need to repeat the default vari
 <hr/>
 ## Credits
 
-Created by [**t47**](http://t47.io/), *April 2016*.
+Created by [**t47**](https://t47.io/), *April 2016*.
 
 Creative Commons Attributes: [**CC BY 3.0**](http://creativecommons.org/licenses/by/3.0/)
