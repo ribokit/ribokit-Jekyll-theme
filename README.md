@@ -19,7 +19,6 @@ Please follow the following steps:
 jekyll serve -w
 ```
 
-<hr/>
 ## Documentation
 
 ### Front Matter
@@ -117,7 +116,6 @@ defaults:
 
 Now for your individual **.md** files, you don't need to repeat the default variables.
 
-<hr/>
 ## Credits
 
 Created by [**t47**](https://t47.io/), *April 2016*.
