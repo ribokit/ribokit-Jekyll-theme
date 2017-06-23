@@ -3,7 +3,7 @@ title: RiboKit
 email: t47@stanford.edu
 description: ""
 baseurl: ""
-url: "http://ribokit.github.io"
+url: "https://ribokit.github.io"
 github_username:  ribokit
 
 # Default variables
@@ -30,7 +30,7 @@ defaults:
     values:
       title: "Example Project"
       description: "Some Description with <u>E</u>xamples"
-      repo: "t47io/ribokit-Jekyll-theme"
+      repo: "ribokit/ribokit-Jekyll-theme"
       root: "/example/"
 
 
